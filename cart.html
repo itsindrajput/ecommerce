@@ -7,10 +7,12 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<title>ThapaCart</title>
+<title>Clothify</title>
 </head>
 
 <body class="bg-light">
+
+
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
 <a class="navbar-brand" href="#">Clothify</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +24,13 @@
 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Features</a>
+<a class="nav-link" href="#">Electronics</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Pricing</a>
+<a class="nav-link" href="#">Cloths</a>
 </li>
 <li class="nav-item">
-<a class="nav-link disabled" href="#">Disabled</a>
+<a class="nav-link" href="#">Grocery</a>
 </li>
 </ul>
 </div>
@@ -149,7 +151,7 @@
 </div>
 <hr />
 <div class="total-amt d-flex justify-content-between font-weight-bold">
-<p>The total amount of (including VAT)</p>
+<p>Total Amount (including taxes) </p>
 <p>$<span id="total_cart_amt">0.00</span></p>
 </div>
 <button class="btn btn-primary text-uppercase">Checkout</button>
@@ -161,13 +163,13 @@
 <div class="card">
 <div class="card-body">
 <a class="d-flex justify-content-between" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-Add a discount code (optional)
+Add a Coupon Code(optional)
 <span><i class="fas fa-chevron-down pt-1"></i></span>
 </a>
 <div class="collapse" id="collapseExample">
 <div class="mt-3">
-<input type="text" name="" id="discount_code1" class="form-control font-weight-bold" placeholder="Enter the discount code">
-<small id="error_trw" class="text-dark mt-3">code is thapa</small>
+<input type="text" name="" id="discount_code1" class="form-control font-weight-bold" placeholder="Enter your coupon code ">
+<small id="error_trw" class="text-dark mt-3"></small>
 </div>
 <button class="btn btn-primary btn-sm mt-3" onclick="discount_code()">Apply</button>
 </div>
